@@ -68,7 +68,10 @@ end
 
 #Arrays 2 Not Done!
 def exercise_7
-
+ingredients =[ ]
+counter = 1
+ingredients.each do |ingredient|
+  puts "#{ingredient}"
 end
 
 #Arrays 3 Not Done!
