@@ -26,7 +26,7 @@ loop do
   elsif answer == "N"
     puts "Let's go shopping"
   else
-    Puts "you did something wrong"
+    puts "you did something wrong"
     break
   end
 end
@@ -41,7 +41,7 @@ def exercise_4()
   end
 end
 
-#while -1 exercise NOT DONE!
+#while 2 exercise NOT DONE!
 
 #for loop 1
 def exercise_4()
@@ -66,7 +66,7 @@ fruits = [ "apple", "strawberry", "rasberry" ]
 fruits.each {|fruit| puts "I love #{fruit}."}
 end
 
-#Arrays 2 Not Done!
+#Arrays 2
 def exercise_7
 ingredients =[ ]
 counter = 1
@@ -78,6 +78,20 @@ end
 def exercise_8
 
 end
+
+#Hashes 1 Not Done!
+def exercise_9
+
+end
+#Hashes 2 Not Done!
+def exercise_10
+
+end
+#Hashes 3 Not Done!
+def exercise_11
+
+end
+
 
 
 exercise_6

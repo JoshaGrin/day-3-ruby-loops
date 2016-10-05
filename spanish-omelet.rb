@@ -76,7 +76,7 @@ end
 
 def scrape_potatoes
   counter = 0
-  while counter < NUM_POTATOES
+  while counter < num_potatoes
     counter += 1
     print "Scraping potato #{counter}"
     print_progress_bar
@@ -85,7 +85,7 @@ end
 
 def cut_potatoes
   counter = 0
-  while counter < NUM_POTATOES
+  while counter < num_potatoes
     counter += 1
     print "Cutting potato #{counter} into thick slices"
     print_progress_bar
@@ -93,7 +93,7 @@ def cut_potatoes
 end
 
 def add_potatoes_to_pan
-  for counter in 1..NUM_POTATOES
+  for counter in 1..num_potatoes
     print "Adding potato #{counter} to the pan."
     print_progress_bar
   end
@@ -101,7 +101,7 @@ end
 
 def break_eggs
   counter = 0
-  while counter < NUM_EGGS
+  while counter < num_eggs
     counter += 1
     print "Breaking egg #{counter}"
     print_progress_bar
@@ -111,8 +111,10 @@ end
 def ask_if_ready(step, index)
   puts "Are you ready for step #{index + 1}? [Y/N]\n(#{step[:description]})"
   answer = gets.chomp
+  if
+  answer.upcase == "Y"
 
-  answer.upcase == 'Y'
+end  
 end
 
 steps.each_with_index do |step, index|
